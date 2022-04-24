@@ -28,6 +28,47 @@
  include_once('Includes/header.php');
  ?>
 
+
+
+
+<header class="text-gray-600 body-font" background-color="blue" id="home">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+<img src="/Images/20220421_090854.png" alt="Tegor InT gFx" width="200px">
+      <span class="ml-3 text-xl">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">BIO Concepts</font>
+        </font>
+      </span>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900" href="#home">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Home</font>
+        </font>
+      </a>
+      <a class="mr-5 hover:text-gray-900"href="#status">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Status</font>
+        </font>
+      </a>
+      <a class="mr-5 hover:text-gray-900"href="#services">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Ask Us</font>
+        </font>
+      </a>
+      <a class="mr-5 hover:text-gray-900" href="#feedback">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Feedback</font>
+        </font>
+      </a>
+    </nav>
+  </div>
+</header>
+
+
+
+
  
   <?php
   include_once('Includes/hero.php');
